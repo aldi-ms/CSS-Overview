@@ -1,0 +1,125 @@
+@import url("css-reset.css");
+
+body {
+    padding: 20px;
+    background-color: #00923E;
+}
+table, th, td  {
+    border: 1px solid #000;
+    border-collapse: separate;
+    border-spacing: 0;
+    vertical-align: middle;
+}
+table {
+    width: 1180px;
+    height: 400px;
+    font-family: "Tahoma", Tahoma, sans-serif;
+    border-radius: 25px;
+    background-color: #FFF;
+}
+td {
+    padding: 10px;
+    font-size: 1.2em;
+}
+th:first-child {
+    border-radius: 25px 0 0 0;
+}
+th:last-child {
+    border-radius: 0 25px 0 0;
+}
+th:only-child {
+    border-radius: 25px 25px 0 0;
+}
+td#last {
+    border-radius: 0 0 25px 0;
+}
+tr:nth-child(2), tr:nth-child(4) {
+    background-color: #FFF;
+}
+tr:nth-child(3), tr:nth-child(5) {
+    background-color: #C8C8C8;
+}
+td#germany {
+    border-radius: 0 0 0 25px;
+}
+th {
+    height: 60px;
+    background-color: #F8C711;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+td:first-child {
+    background-repeat: no-repeat;
+    background-size: 30px 20px;
+    background-position: 95% 50%;
+    text-align: right;
+    padding-right: 45px;
+    width: 200px;
+}
+td:nth-child(2), td:nth-child(4) {
+    text-align: center;
+    width: 110px;
+}
+td:nth-child(3) {
+    background-repeat: no-repeat;
+    background-size: 30px 20px;
+    background-position: 5% 50%;
+    max-width: 160px;
+    width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 45px;
+}
+td:nth-child(5), td:nth-child(7) {
+    width: 160px;
+    max-width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+td:nth-child(6) {
+    width: 130px;
+}
+td:nth-child(8) {
+    text-align: center;
+    vertical-align: middle;
+}
+select {
+    height: 40px;
+}
+select[disabled="disabled"] {
+    color: #F00;
+}
+#brasil {
+    background-image: url('img/flag-brasil.png');
+}
+#mexico {
+    background-image: url('img/flag-mexico.gif');
+}
+#spain {
+    background-image: url('img/flag-spain.gif');
+}
+#netherlands {
+    background-image: url('img/flag-netherlands.gif');
+}
+#italy {
+    background-image: url('img/flag-italy.png');
+}
+#england {
+    background-image: url('img/flag-england.gif');
+}
+#argentina {
+    background-image: url('img/flag-argentina.png');
+}
+#bosnia {
+    background-image: url('img/flag-bosnia.jpg');
+}
+#germany {
+    background-image: url('img/flag-germany.gif');
+}
+#portugal {
+    background-image: url('img/flag-portugal.gif');
+}
