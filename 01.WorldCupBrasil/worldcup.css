@@ -93,6 +93,14 @@ select {
 select[disabled="disabled"] {
     color: #F00;
 }
+.right {
+    display: block;
+    float: right;
+}
+.left {
+    display: block;
+    float: left;
+}
 #brasil {
     background-image: url('img/flag-brasil.png');
 }
